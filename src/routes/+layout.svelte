@@ -17,3 +17,8 @@
     <hr/>
     <p class = "text-center mt-10 anta-regular">Made by Arnav</p>
   </footer>
+  <style lang="postcss">
+    :global(html) {
+      background-color: theme(colors.gray.100);
+    }
+  </style>
