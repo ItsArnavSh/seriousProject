@@ -28,7 +28,6 @@
 declare module '$env/static/private' {
 	export const GJS_DEBUG_TOPICS: string;
 	export const LESSOPEN: string;
-	export const npm_package_dev: string;
 	export const LANGUAGE: string;
 	export const USER: string;
 	export const npm_config_user_agent: string;
@@ -37,21 +36,18 @@ declare module '$env/static/private' {
 	export const GIT_ASKPASS: string;
 	export const GTK_EXE_PREFIX_VSCODE_SNAP_ORIG: string;
 	export const npm_node_execpath: string;
-	export const npm_package_resolved: string;
 	export const GDK_BACKEND_VSCODE_SNAP_ORIG: string;
 	export const SHLVL: string;
 	export const npm_config_noproxy: string;
 	export const HOME: string;
 	export const CHROME_DESKTOP: string;
 	export const LOCPATH_VSCODE_SNAP_ORIG: string;
-	export const npm_package_optional: string;
 	export const TERM_PROGRAM_VERSION: string;
 	export const DESKTOP_SESSION: string;
 	export const GTK_PATH: string;
 	export const npm_package_json: string;
 	export const GTK_IM_MODULE_FILE: string;
 	export const GIO_LAUNCHED_DESKTOP_FILE: string;
-	export const npm_package_engines_node: string;
 	export const GNOME_SHELL_SESSION_MODE: string;
 	export const GTK_MODULES: string;
 	export const GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG: string;
@@ -60,14 +56,12 @@ declare module '$env/static/private' {
 	export const MANAGERPID: string;
 	export const npm_config_userconfig: string;
 	export const npm_config_local_prefix: string;
-	export const npm_package_integrity: string;
 	export const NIX_PATH: string;
 	export const SYSTEMD_EXEC_PID: string;
 	export const IM_CONFIG_CHECK_ENV: string;
 	export const DBUS_SESSION_BUS_ADDRESS: string;
 	export const COLORTERM: string;
 	export const GIO_LAUNCHED_DESKTOP_FILE_PID: string;
-	export const npm_config_save_dev: string;
 	export const COLOR: string;
 	export const NVM_DIR: string;
 	export const IM_CONFIG_PHASE: string;
@@ -121,13 +115,11 @@ declare module '$env/static/private' {
 	export const LESSCLOSE: string;
 	export const GTK_PATH_VSCODE_SNAP_ORIG: string;
 	export const GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG: string;
-	export const npm_package_dev_optional: string;
 	export const GJS_DEBUG_OUTPUT: string;
 	export const VSCODE_GIT_ASKPASS_EXTRA_ARGS: string;
 	export const QT_IM_MODULE: string;
 	export const npm_config_globalconfig: string;
 	export const npm_config_init_module: string;
-	export const npm_package_peer: string;
 	export const PWD: string;
 	export const npm_execpath: string;
 	export const XDG_CONFIG_DIRS: string;
@@ -138,6 +130,7 @@ declare module '$env/static/private' {
 	export const NVM_RC_VERSION: string;
 	export const INIT_CWD: string;
 	export const EDITOR: string;
+	export const NODE_ENV: string;
 }
 
 /**
@@ -171,7 +164,6 @@ declare module '$env/dynamic/private' {
 	export const env: {
 		GJS_DEBUG_TOPICS: string;
 		LESSOPEN: string;
-		npm_package_dev: string;
 		LANGUAGE: string;
 		USER: string;
 		npm_config_user_agent: string;
@@ -180,21 +172,18 @@ declare module '$env/dynamic/private' {
 		GIT_ASKPASS: string;
 		GTK_EXE_PREFIX_VSCODE_SNAP_ORIG: string;
 		npm_node_execpath: string;
-		npm_package_resolved: string;
 		GDK_BACKEND_VSCODE_SNAP_ORIG: string;
 		SHLVL: string;
 		npm_config_noproxy: string;
 		HOME: string;
 		CHROME_DESKTOP: string;
 		LOCPATH_VSCODE_SNAP_ORIG: string;
-		npm_package_optional: string;
 		TERM_PROGRAM_VERSION: string;
 		DESKTOP_SESSION: string;
 		GTK_PATH: string;
 		npm_package_json: string;
 		GTK_IM_MODULE_FILE: string;
 		GIO_LAUNCHED_DESKTOP_FILE: string;
-		npm_package_engines_node: string;
 		GNOME_SHELL_SESSION_MODE: string;
 		GTK_MODULES: string;
 		GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG: string;
@@ -203,14 +192,12 @@ declare module '$env/dynamic/private' {
 		MANAGERPID: string;
 		npm_config_userconfig: string;
 		npm_config_local_prefix: string;
-		npm_package_integrity: string;
 		NIX_PATH: string;
 		SYSTEMD_EXEC_PID: string;
 		IM_CONFIG_CHECK_ENV: string;
 		DBUS_SESSION_BUS_ADDRESS: string;
 		COLORTERM: string;
 		GIO_LAUNCHED_DESKTOP_FILE_PID: string;
-		npm_config_save_dev: string;
 		COLOR: string;
 		NVM_DIR: string;
 		IM_CONFIG_PHASE: string;
@@ -264,13 +251,11 @@ declare module '$env/dynamic/private' {
 		LESSCLOSE: string;
 		GTK_PATH_VSCODE_SNAP_ORIG: string;
 		GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG: string;
-		npm_package_dev_optional: string;
 		GJS_DEBUG_OUTPUT: string;
 		VSCODE_GIT_ASKPASS_EXTRA_ARGS: string;
 		QT_IM_MODULE: string;
 		npm_config_globalconfig: string;
 		npm_config_init_module: string;
-		npm_package_peer: string;
 		PWD: string;
 		npm_execpath: string;
 		XDG_CONFIG_DIRS: string;
@@ -281,6 +266,7 @@ declare module '$env/dynamic/private' {
 		NVM_RC_VERSION: string;
 		INIT_CWD: string;
 		EDITOR: string;
+		NODE_ENV: string;
 		[key: `PUBLIC_${string}`]: undefined;
 		[key: `${string}`]: string | undefined;
 	}
