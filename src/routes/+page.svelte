@@ -24,3 +24,8 @@ import About from "./about/+page.svelte"
 <Newsletter/>
 <div class = "mt-20"></div>
 <About/>
+<style lang="postcss">
+    :global(html) {
+      background-color: theme(colors.gray.100);
+    }
+  </style>
